@@ -20,6 +20,7 @@ import { EmbedCalculatorView } from './components/calculator/EmbedCalculatorView
 import { TOOLS_REGISTRY } from './data/toolsRegistry';
 import { CATEGORIES } from './data/categories';
 import { initCapacitorMobile } from './mobile/capacitorBridge';
+import { AdMobBanner } from './components/ads/AdMobBanner';
 
 interface NavHistoryItem {
   view: string;
@@ -404,6 +405,9 @@ export default function App() {
             onSelectTool={(slug) => navigateTo(`tool-${slug}`)}
             onSelectCategory={(catId) => navigateTo(`category-${catId}`)}
           />
+
+          {/* AdMob Demo Banner Ad Integration */}
+          <AdMobBanner />
 
           {/* Global Trust & Disclaimer Footer */}
           <Footer
