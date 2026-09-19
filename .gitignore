@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production Build outputs
+dist/
+build/
+coverage/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# OS and Editor files
+.DS_Store
+*.pem
+*.log
+.idea/
+.vscode/
+
+# Android Keystores & Build Credentials (CRITICAL SECURITY)
+*.jks
+*.keystore
+android/app/release/
+android/app/*.jks
+android/app/*.keystore
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# iOS Signing Certificates & Derived Data (CRITICAL SECURITY)
+*.p12
+*.p8
+*.mobileprovision
+ios/DerivedData/
+ios/App/build/
+ios/App/Pods/
+ios/App/App.xcarchive

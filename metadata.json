@@ -1,0 +1,6 @@
+{
+  "name": "Zeta Calculator - Free Everyday Tools & Calculators",
+  "description": "Use 100+ free online calculators for loan EMI, mortgages, taxes, health, and everyday math. Fast, private, and 100% accurate. Calculate your numbers now!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
